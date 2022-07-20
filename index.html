@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Medical Report Icon</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			width: 600px;
+			height: 600px;
+			background: #62cae5;
+			border-radius: 50%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.clipboard{
+			width: 332px;
+			height: 385px;
+			background: #44465d;
+			border-radius: 12px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.paper{
+			width: 285px;
+			height: 325px;
+			background: #fff;
+			border-radius: 8px;
+			position: absolute;
+			top: 24px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.corner{
+			width: 46px;
+			height: 46px;
+			background: #dbdbdb;
+			border-top-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+		.corner:before{
+			content: '';
+			width: 40px;
+			height: 65.5px;
+			background: #44465d;
+			border-radius: 0 40px 40px 0;
+			position: absolute;
+			bottom: 0;
+			transform-origin: bottom left;
+			transform: rotate(45deg);
+		}
+		.logo{
+			width: 125px;
+			height: 125px;
+			background: linear-gradient(90deg, #ca2e2f 50%, #ee3e40 51%);
+			border-radius: 50%;
+			position: absolute;
+			top: 40px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.logo:before{
+			content: '';
+			width: 20px;
+			height: 65px;
+			background: #fff;
+			border-radius: 1px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.logo:after{
+			content: '';
+			width: 65px;
+			height: 20px;
+			background: #fff;
+			border-radius: 1px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.line{
+			width: 160px;
+			height: 12px;
+			background: #bbc3c6;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.line1{top: 200px;}
+		.line2{top: 230px;}
+		.line3{top: 260px;}
+		.metal{
+			width: 176px;
+			height: 56px;
+			background: linear-gradient(#dbdbdb 67%, #bbc3c6 68%);
+			border-radius: 10px 10px 4px 4px;
+			position: absolute;
+			top: -14px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.metal:before{
+			content: '';
+			width: 26px;
+			height: 26px;
+			background: #62cae5;
+			border: 15px solid #dbdbdb;
+			border-radius: 50%;
+			position: absolute;
+			top: -28px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="clipboard">
+			<div class="paper">
+				<div class="corner"></div>
+				<div class="logo"></div>
+				<div class="line line1"></div>
+				<div class="line line2"></div>
+				<div class="line line3"></div>
+			</div>
+			<div class="metal"></div>
+		</div>
+	</div>
+</body>
+</html>
